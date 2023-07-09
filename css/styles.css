@@ -1,0 +1,239 @@
+:root {
+  --white: #ffffff;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+  --slate: #434455;
+  --cornflower: #e7e9fc;
+  --navyblue: #2e2f42;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  color: var(--slate);
+}
+
+/* Header */
+.main-logo {
+  color: var(--iris);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.web-logo {
+  color: var(--navyblue);
+}
+
+/* Navigations */
+.main-spisok a {
+  color: var(--navyblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.main-spisok a:hover,
+.main-spisok a:focus {
+  color: var(--ocean);
+  text-decoration: underline;
+}
+
+/* Contacts */
+.main-contacts {
+  font-style: normal;
+}
+
+.contacts a {
+  color: var(--slate);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--ocean);
+}
+
+/* Main page */
+.main-content {
+  background: var(--navyblue);
+}
+.main-title {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+/* Button order-service */
+.order-service {
+  cursor: pointer;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--iris);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+.order-service:hover,
+.order-service:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+/* Section2 */
+.title-sect-two {
+  color: var(--navyblue);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.sect-two-subtitle {
+  color: var(--navyblue);
+  font-size: 20px;
+  text-align: left;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.sect-two-parag {
+  color: var(--slate);
+
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+/*  Section 3*/
+.title-sect-doing {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+}
+.list {
+  list-style: none;
+}
+
+/* Our team */
+.our-team {
+  background-color: #f4f4fd;
+}
+.foto {
+  background-color: var(--white);
+}
+
+.title-our-team {
+  color: var(--navyblue);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.team-subtitle {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.our-team-parag {
+  color: var(--slate);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* Footer */
+.footer-page {
+  background: var(--navyblue);
+}
+.link {
+  text-decoration: none;
+}
+
+.footer-logo {
+  color: var(--iris);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-web-logo {
+  color: var(--cloud);
+}
+.footer-text {
+  color: var(--cloud);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* Portfolio */
+
+/* List of button  */
+.functional {
+  cursor: pointer;
+  background: var(--cloud);
+  color: var(--iris);
+  text-align: center;
+  border: 1px solid var(--cornflower);
+  border-style: none;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+.functional:hover,
+.functional:focus {
+  color: var(--white);
+  background: var(--ocean);
+}
+
+.portfolio-title {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+.portfolio-subtitle {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-text {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
