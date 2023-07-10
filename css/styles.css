@@ -48,8 +48,15 @@ img {
 /* Header */
 .container {
   max-width: 1440px;
+  height: 72px;
   margin: 0 auto;
   border-bottom: 1px solid var(--cornflower);
+}
+.container nav,
+address {
+  display: inline-flex;
+  margin-left: 156px;
+  margin-top: 24px;
 }
 
 .page-nav link,
@@ -92,6 +99,9 @@ ul {
 .main-spisok li {
   display: flex;
 }
+.main-spisok {
+  padding-left: 76px;
+}
 
 /* Contacts */
 
@@ -101,8 +111,7 @@ ul {
 .main-contacts ul {
   display: flex;
   gap: 40px;
-  justify-content: flex-end;
-  padding: 24px 156px 24px 0;
+  padding-left: 152px;
 }
 
 .contacts a {
@@ -136,10 +145,11 @@ ul {
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
-/* .main-page h1,
-.order-service {
+.main-content .title-one,
+.button {
   display: flex;
-} */
+  justify-content: center;
+}
 
 /* Button order-service */
 .order-service {
@@ -173,6 +183,7 @@ ul {
   gap: 24px;
   flex-direction: row;
   justify-content: center;
+  padding-top: 120px;
 }
 .title-sect-two {
   color: var(--navyblue);
