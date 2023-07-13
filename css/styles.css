@@ -48,11 +48,12 @@ img {
 /* Header */
 .container {
   max-width: 1440px;
-  width: 100%;
+  width: 1134px;
   margin: 0 auto;
 }
 .header-main {
   height: 72px;
+
   border-bottom: 1px solid var(--cornflower);
 }
 .container nav,
@@ -283,12 +284,6 @@ ul {
   height: 312px;
   background: var(--navyblue);
 }
-
-/* .footer-page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
 
 .link {
   text-decoration: none;
