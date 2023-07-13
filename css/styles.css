@@ -48,7 +48,7 @@ img {
 /* Header */
 .container {
   max-width: 1440px;
-  width: 1134px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
@@ -76,7 +76,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  margin-right: 76p;
+  margin-right: 76px;
 }
 .web-logo {
   color: var(--navyblue);
@@ -88,7 +88,7 @@ img {
   gap: 40px;
   padding-left: 76px;
 }
-.main-spisok li {
+.spisok-item {
   padding: 24px 0;
 }
 .main-spisok a {
@@ -114,7 +114,7 @@ img {
 .main-contacts ul {
   display: flex;
   gap: 40px;
-  padding-left: 308px;
+  padding-left: 257px;
   padding-top: 24px;
 }
 
@@ -176,16 +176,16 @@ img {
 }
 
 /* Section2 */
-.section-container {
-  max-width: 1440px;
-  margin: 0 auto;
+.section-two {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-.list-container ul {
+.list-container {
   display: flex;
   gap: 24px;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 120px;
+}
+.sect-two-item {
+  width: calc((100% - 72px) / 4);
 }
 .title-sect-two {
   color: var(--navyblue);
@@ -200,6 +200,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .sect-two-parag {
   color: var(--slate);
@@ -220,7 +221,7 @@ img {
   line-height: 1.11;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 120px;
+
   margin-bottom: 72px;
 }
 .list {
@@ -240,15 +241,16 @@ img {
 .our-team {
   background-color: #f4f4fd;
   height: 732px;
+  padding: 120px 0;
 }
 .foto {
   background-color: var(--white);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
-.team-container ul {
+.team-container {
   display: flex;
   gap: 24px;
-  flex-direction: row;
-  justify-content: center;
 }
 .title-our-team {
   color: var(--navyblue);
@@ -257,6 +259,10 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
+}
+.title-item {
+  padding: 32px 16px;
 }
 .team-subtitle {
   color: var(--navyblue);
@@ -265,6 +271,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .our-team-parag {
   color: var(--slate);
@@ -380,7 +387,6 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .card {
