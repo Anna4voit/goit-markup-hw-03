@@ -53,7 +53,7 @@ img {
   padding: 0 15px 0 15px;
 }
 .header-main {
-  height: 72px;
+  /* height: 72px; */
   border-bottom: 1px solid var(--cornflower);
 }
 
@@ -86,7 +86,7 @@ img {
 .main-spisok {
   display: flex;
   gap: 40px;
-  padding-left: 76px;
+  /* padding-left: 76px; */
 }
 .spisok-item {
   padding: 24px 0;
@@ -98,12 +98,13 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: inline-block;
 }
 
 .main-spisok a:hover,
 .main-spisok a:focus {
   color: var(--ocean);
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 /* Contacts */
@@ -139,7 +140,7 @@ img {
 }
 .main-title {
   max-width: 496px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   color: var(--white);
   text-align: center;
   font-size: 56px;
@@ -147,7 +148,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-left: 400px;
+  margin: 0 auto;
 }
 
 /* Button order-service */
@@ -167,7 +168,9 @@ img {
   letter-spacing: 0.64px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-left: 566px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
 }
 .order-service:hover,
 .order-service:focus {
